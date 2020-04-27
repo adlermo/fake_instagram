@@ -30,10 +30,10 @@ CREATE TABLE comentarios (
 INSERT INTO usuarios
 	(nome, email, senha)
 VALUES
-	('Gabriel Brunetti', 'gbrunetti@digitalhouse.com', '12341231312'),
-	('Sergio Siqueira', 'ssiqueira@digitalhouse.com', '12341231312'),
-	('Felipe Veronesi', 'fveronesi@digitalhouse.com', '12341231312'),
-    ('Hendy Almeida', 'halmeida@digitalhouse.com', '1234125412');
+    ('Gabriel Brunetti', 'gbrunetti@digitalhouse.com', '$2b$10$hKXxuZe3vE4EBVAIdzvrxuL3OrynJQZBbRiZnEYfwrgC1A0LKsuYe'),
+	('Sergio Siqueira', 'ssiqueira@digitalhouse.com', '$2b$10$2/MGT6aEKBa1DlbOMPBWS.4Xhqm5k.v9g4YBzHi78jT1xQq5vE4C.'),
+	('Felipe Veronesi', 'fveronesi@digitalhouse.com', '$2b$10$gabZ48YuFts8C64vhE0jy.GBOUi5ZeZbzkD5O1BK0a46WNvPiOOLK'),
+    ('Hendy Almeida', 'halmeida@digitalhouse.com', '$2b$10$iXZN2CUh2NNudnv.4k8xT.C4VviqJ4p.tqvMetObTNg3DaqliVyDO');
 
 -- ADICIONANDO DADOS A POSTS
 INSERT INTO posts
@@ -52,7 +52,4 @@ VALUES
     ('Fim de semana já não existe mais!',2,2),
 	('FDS nervoso!',3,2),
     ('Fim de semana foi lindo!',4,2);
-    
-    
-    
     
